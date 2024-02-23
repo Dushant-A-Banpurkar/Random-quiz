@@ -1,0 +1,51 @@
+.Container {
+  margin-top: 20px;
+  height: 400px;
+  width: 100%;
+  border: solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#random1,
+#plus,
+#random2,
+#equal,
+#answer {
+  height: 250px;
+  width: 250px;
+  font-size: 150px;
+}
+
+input {
+  height: 250px;
+  width: 250px;
+  font-size: 150px;
+}
+
+#result {
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+}
+
+.buttoncontainer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  border: solid blue;
+  color: blue;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+button:hover {
+  background-color: #0056b3;
+  color: black;
+}
